@@ -14,7 +14,7 @@ export function middleware(request: NextRequest) {
         return NextResponse.redirect(new URL('/login', request.nextUrl))
     }
 }
- 
+
 export const config = {
   matcher: [
     '/' ,
